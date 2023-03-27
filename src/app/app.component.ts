@@ -13,7 +13,7 @@ export class AppComponent {
   me = {
     id: 0,
     name: "",
-    email: "evolkman@example.com",
+    email: "wintheiser.elijah@example.org",
     password: "password",
   }
 

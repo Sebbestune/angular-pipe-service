@@ -11,7 +11,8 @@ import { User } from '../user';
 })
 export class UserService {
 
-  configUrl = "http://127.0.0.1:8000/api/";
+  // Var förut: http://127.0.0.1:8000/api/
+  configUrl = "https://u06-init-production.up.railway.app/api/"; 
 
   httpOptions = {
     headers: new HttpHeaders({
